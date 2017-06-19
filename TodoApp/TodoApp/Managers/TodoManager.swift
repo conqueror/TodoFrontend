@@ -17,7 +17,7 @@ class TodoManager {
         
         let url = URL(string: "http://localhost:8080/todos")!
         WebServiceManger.sendRequest(url: url, requestMethod: .get, responseType: TodoModel.self) {
-            (responseData:[TodoModel]?, error: Bool?) -> Void in
+            (responseData: [TodoModel]?, error: Bool?) -> Void in
             print(responseData!)
             completion(responseData, false)
         }

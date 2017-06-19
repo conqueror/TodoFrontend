@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0301DC1EF4089200AABB74 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0301DB1EF4089200AABB74 /* View.xib */; };
+		3D0301DE1EF40B5F00AABB74 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0301DD1EF40B5F00AABB74 /* LoginViewController.swift */; };
+		3D03038C1EF44A1700AABB74 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D03038B1EF44A1700AABB74 /* LoginManager.swift */; };
 		3D318AA51CFE6CB4008BAAE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D318AA41CFE6CB4008BAAE2 /* AppDelegate.swift */; };
 		3D318AA71CFE6CB4008BAAE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D318AA61CFE6CB4008BAAE2 /* ViewController.swift */; };
 		3D318AAA1CFE6CB4008BAAE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D318AA81CFE6CB4008BAAE2 /* Main.storyboard */; };
@@ -25,6 +28,9 @@
 		0D7297E766350599F7E97D8B /* Pods-TodoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodoApp/Pods-TodoApp.release.xcconfig"; sourceTree = "<group>"; };
 		2342AA651511BEE206856102 /* Pods_2016_06_01_codelab_frontend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2016_06_01_codelab_frontend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BBB226380730CE1FF22FE4 /* Pods-TodoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodoApp/Pods-TodoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3D0301DB1EF4089200AABB74 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		3D0301DD1EF40B5F00AABB74 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3D03038B1EF44A1700AABB74 /* LoginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 		3D318AA11CFE6CB4008BAAE2 /* TodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D318AA41CFE6CB4008BAAE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D318AA61CFE6CB4008BAAE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,9 +88,11 @@
 				3D318AB01CFE6CB4008BAAE2 /* Info.plist */,
 				3D318AAD1CFE6CB4008BAAE2 /* LaunchScreen.storyboard */,
 				3D318AA81CFE6CB4008BAAE2 /* Main.storyboard */,
+				3D0301DB1EF4089200AABB74 /* View.xib */,
 				3DB2E7A21CFFAE490077176C /* TodoDetailViewController.swift */,
 				3DB2E7A01CFFA6580077176C /* TodosTableViewController.swift */,
 				3D318AA61CFE6CB4008BAAE2 /* ViewController.swift */,
+				3D0301DD1EF40B5F00AABB74 /* LoginViewController.swift */,
 			);
 			path = TodoApp;
 			sourceTree = "<group>";
@@ -105,6 +113,7 @@
 				3DB2E7A61CFFB0680077176C /* TodoManager.swift */,
 				3DB2E7A71CFFB0680077176C /* TodoModel.swift */,
 				3DB2E7A81CFFB0680077176C /* WebServiceManager.swift */,
+				3D03038B1EF44A1700AABB74 /* LoginManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -182,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0301DC1EF4089200AABB74 /* View.xib in Resources */,
 				3D318AAF1CFE6CB4008BAAE2 /* LaunchScreen.storyboard in Resources */,
 				3D318AAC1CFE6CB4008BAAE2 /* Assets.xcassets in Resources */,
 				3D318AAA1CFE6CB4008BAAE2 /* Main.storyboard in Resources */,
@@ -243,10 +253,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0301DE1EF40B5F00AABB74 /* LoginViewController.swift in Sources */,
 				3D318AA71CFE6CB4008BAAE2 /* ViewController.swift in Sources */,
 				3DB2E7AA1CFFB0680077176C /* TodoManager.swift in Sources */,
 				3DB2E7A31CFFAE490077176C /* TodoDetailViewController.swift in Sources */,
 				3DB2E7A91CFFB0680077176C /* DatabaseManager.swift in Sources */,
+				3D03038C1EF44A1700AABB74 /* LoginManager.swift in Sources */,
 				3DB2E7AC1CFFB0680077176C /* WebServiceManager.swift in Sources */,
 				3D318AA51CFE6CB4008BAAE2 /* AppDelegate.swift in Sources */,
 				3DB2E7AB1CFFB0680077176C /* TodoModel.swift in Sources */,
